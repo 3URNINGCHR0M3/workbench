@@ -3,8 +3,17 @@ package net.forje.workbench.console;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class is responsible for parsing the user input at the console problem into it's various elements
+ */
 public class UserInputParser {
 
+    /**
+     * Parses the string user input string and returns an object encapsulating the various elements.
+     *
+     * @param input the user input captured from the console prompt.
+     * @return an object encapsulating the various elements of the user input
+     */
     public UserInput parse(final String input) {
 
         if (input == null || input.trim().length() == 0) {

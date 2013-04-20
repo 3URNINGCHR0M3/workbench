@@ -12,7 +12,10 @@
     <artifactId>workbench-module-validator</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Workbench Module Validator</name>
-    <description>A library to validate modules and all the rules around them</description>
+    <description>
+        A library to validate modules and all the rules around them.  This is written as a library so it can be
+        used by the core application and any other sub systems which need to handle modules.
+    </description>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>

@@ -17,10 +17,18 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <version>1.2.12</version>
+            <!-- 
+                using log4j 1.2.12 because it does not have an external
+                dependencies.  later releases added external dependencies
+                which are not attractive.
+            -->
         </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <build>
+
+    </build>
 </project>
